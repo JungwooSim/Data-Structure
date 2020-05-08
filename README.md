@@ -110,8 +110,8 @@
   * n 에 따라 몇번 실행되는지 계산하면 된다
     * 표현식에 큰 영향을 미치는 n 의 단위로 표기
     * n = 1, n = 100, n = 1000, ... n 이 몇이던간에,
-    
-'''
+<pre>
+<code>
 // O(1) - 상수회 실행될 때
 if n > 10 : print(n);
 
@@ -127,7 +127,8 @@ for i in range(100) :
 	for num in range(n) :
 		for index in range(n) :
 			print(index)
-'''
+</code>
+</pre>
     * 만약 시간 복잡도 함수가 2n^2 + 3n 이라면,
       * 가장 높은 차수 : 2n^2
       * 상수는 실제로 큰 영향이 없음
